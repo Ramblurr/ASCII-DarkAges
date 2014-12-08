@@ -1,0 +1,44 @@
+item_tool_daac
+
+[OBJECT:ITEM]
+
+=================================================================================================================
+Dark Ages 0.40.13 | r4 | Dark Ages Adventure Crafting. DAAC. Refit AUC tools. GM-X | dfdarkage.com
+=================================================================================================================
+
+[ITEM_TOOL:ITEM_TOOL_CRAFT_HAMMER]
+[NAME:craft hammer:craft hammers]
+[VALUE:150]
+[METAL_WEAPON_MAT]
+[TOOL_USE:MEAT_CARVING]
+[TILE:'/']
+[SIZE:200]
+[SKILL:HAMMER]
+[TWO_HANDED:20000]
+[MINIMUM_SIZE:3000]
+[MATERIAL_SIZE:2]
+[ATTACK:BLUNT:150:200:strike:strikes:side:1000]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+
+[ITEM_TOOL:ITEM_TOOL_CRAFT_PICK]
+[NAME:hand pick:hand picks]
+[VALUE:200]
+[METAL_WEAPON_MAT]
+[TOOL_USE:MEAT_CLEAVING]
+[TILE:'/']
+[SIZE:300]
+[SKILL:MINING]
+[TWO_HANDED:20000]
+[MINIMUM_SIZE:3000]
+[MATERIAL_SIZE:2]
+[ATTACK:EDGE:50:1000:strike:strikes:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	
+=================================================================================================================
+
+
+
+
+
+
+

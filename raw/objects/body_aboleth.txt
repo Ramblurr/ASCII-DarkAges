@@ -1,0 +1,33 @@
+body_aboleth
+
+[OBJECT:BODY]
+
+===========================================================================================================
+Dark Ages 0.40.11 | r1 | Aboleth body details, by UnGodlySockPuppet. GM-X | dfdarkage.com
+===========================================================================================================
+
+[BODY:ABOLETH]
+	[BP:UB:upper body:upper bodies][UPPERBODY][STANCE][CATEGORY:BODY_UPPER]
+		[DEFAULT_RELSIZE:1000]
+	[BP:LB:lower body:lower bodies][CON:UB][LOWERBODY][STANCE][CATEGORY:BODY_LOWER]
+		[DEFAULT_RELSIZE:1000]
+	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
+		[DEFAULT_RELSIZE:650]
+	[BP:RF:right fin:STP][CON:UB][LIMB][RIGHT][CATEGORY:FIN]
+		[DEFAULT_RELSIZE:450]
+	[BP:LF:left fin:STP][CON:UB][LIMB][LEFT][CATEGORY:FIN]
+		[DEFAULT_RELSIZE:450]
+	[BP:RH:right claw:STP][CON:RF][RIGHT][CATEGORY:HAND]
+		[DEFAULT_RELSIZE:80]
+	[BP:LH:left claw:STP][CON:LF][LEFT][CATEGORY:HAND]
+		[DEFAULT_RELSIZE:80]
+	[BP:T:tail fin:tail fins][CON:LB][CATEGORY:TAIL]
+		[DEFAULT_RELSIZE:400]
+	[BP:RT:right tentacle:STP][CON:LB][LIMB][RIGHT][CATEGORY:TENTACLE]
+		[DEFAULT_RELSIZE:450]
+	[BP:LT:left tentacle:STP][CON:LB][LIMB][LEFT][CATEGORY:TENTACLE]
+		[DEFAULT_RELSIZE:450]
+	[BP:RTP:right tentacle pad:STP][CON:RT][SMALL][EMBEDDED][GRASP][RIGHT][CATEGORY:PAD]
+		[DEFAULT_RELSIZE:80]
+	[BP:LTP:left tentacle pad:STP][CON:LT][SMALL][EMBEDDED][GRASP][LEFT][CATEGORY:PAD]
+		[DEFAULT_RELSIZE:80]

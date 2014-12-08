@@ -1,0 +1,88 @@
+inorganic_various
+
+[OBJECT:INORGANIC]
+
+===========================================================================================================
+Dark Ages 0.40.13 | r1 | Various Inorganic. GM-X | dfdarkage.com
+===========================================================================================================
+
+[INORGANIC:HOLY]
+	[STATE_NAME_ADJ:ALL_SOLID:undead]
+	[STATE_NAME_ADJ:LIQUID:molten undead]
+	[STATE_NAME_ADJ:GAS:boiling undead]
+	[DISPLAY_COLOR:0:7:1]	
+	[BUILD_COLOR:0:7:1]
+	[MATERIAL_VALUE:8]
+	[SPEC_HEAT:450]
+	[MELTING_POINT:12768]
+	[BOILING_POINT:15150]
+	[SOLID_DENSITY:7850]
+	[LIQUID_DENSITY:6980]
+	[MOLAR_MASS:55845]
+	[IMPACT_YIELD:542500] 
+	[IMPACT_FRACTURE:1085000]
+	[IMPACT_STRAIN_AT_YIELD:319]
+	[COMPRESSIVE_YIELD:542500]
+	[COMPRESSIVE_FRACTURE:1085000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:319] 
+	[TENSILE_YIELD:155000]
+	[TENSILE_FRACTURE:310000]
+	[TENSILE_STRAIN_AT_YIELD:73] 
+	[TORSION_YIELD:155000]
+	[TORSION_FRACTURE:310000]
+	[TORSION_STRAIN_AT_YIELD:189]
+	[SHEAR_YIELD:155000]
+	[SHEAR_FRACTURE:310000]
+	[SHEAR_STRAIN_AT_YIELD:189] 
+	[BENDING_YIELD:155000]
+	[BENDING_FRACTURE:310000]
+	[BENDING_STRAIN_AT_YIELD:73]
+	[MAX_EDGE:10000]
+	
+================================================================================================
+
+[INORGANIC:ECTO_LFR]
+   [USE_MATERIAL_TEMPLATE:DARKNESS2_TEMPLATE]
+   [STATE_NAME:ALL_SOLID:ectoplasmic shadow]
+   [STATE_NAME_ADJ:ALL_SOLID:ectoplasmic shadow][DISPLAY_COLOR:3:0:1]
+   [TILE:153]
+   [ITEM_SYMBOL:10]
+   [SOLID_DENSITY:10]
+   [MATERIAL_VALUE:20]
+   [MELTING_POINT:250000]
+   
+================================================================================================
+
+[INORGANIC:FLAMING]
+	[USE_MATERIAL_TEMPLATE:WOOD_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:burning]
+	[STATE_NAME_ADJ:LIQUID:burning]
+	[STATE_NAME_ADJ:GAS:burning]
+
+================================================================================================
+	
+[INORGANIC:GRIME]	
+	[USE_MATERIAL_TEMPLATE:SWEAT_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:grime]
+	[DISPLAY_COLOR:6:0:0]
+	[MATERIAL_VALUE:0]	
+	
+================================================================================================
+
+[INORGANIC:SHADOW]
+        [USE_MATERIAL_TEMPLATE:SHADOW_TEMPLATE]
+[INORGANIC:DARKNESS]
+        [USE_MATERIAL_TEMPLATE:DARKNESS_TEMPLATE]
+		
+================================================================================================
+		
+[INORGANIC:GUNPOWDER]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_COLOR:ALL:BLACK]
+	[STATE_NAME_ADJ:ALL:gunpowder]
+	[DISPLAY_COLOR:0:0:1][TILE:'#']
+	[SOLID_DENSITY:2787]
+	[IS_STONE]
+	[MATERIAL_VALUE:20]
+	
+================================================================================================

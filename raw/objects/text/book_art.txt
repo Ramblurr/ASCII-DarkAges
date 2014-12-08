@@ -1,0 +1,62 @@
+[NAME]
+[PHRASE]
+[ADJ] [NO_ART_NAME]
+The [ADJ] [NO_ART_NAME]
+[NAME] [ADJ]
+[NAME] and the [NOUN]
+[NAME] and the [ADJ] [NOUN]
+The [NOUN] and [NAME]
+The [ADJ] [NOUN] and [NAME]
+[NAME]: [PHRASE]
+It Must Have Been [NAME]
+My Friend [NAME]
+The Birth of [NAME]
+The Sun Sets on [NAME]
+We See [NAME]
+[NAME] Ever Onward
+[NAME] and Nothing More
+And [ANY_PRONOUN] Sang '[NAME]!'
+[NAME] A Long Time Coming
+[NAME] For the New Age
+[NAME] Without Ending
+[NOUN] the [ADJ] [NAME]
+And [ANY_PRONOUN] Blamed [NAME]
+And [ANY_PRONOUN] Understood [NAME]
+And [ANY_PRONOUN] Feared [NAME]
+Then Came [ADJ]: [NAME]
+Right About [NAME]
+Wrong About [NAME]
+Dark Towers [NO_ART_NAME]
+[NAME]: Dark Towers
+[ANY_PRONOUN] Accepted [NAME]
+[PHRASE] the [NAME]
+[NAME] the [PHRASE]
+[NAME] and the [PHRASE]
+A Time To [NOUN]
+[NAME] Both Now and [NOUN]
+The [ADJ] [NO_ART_NAME]
+The [ADJ] [PHRASE]
+The [NAME] [ADJ] and [NOUN]
+[NAME] The [ADJ] Path
+Moonrise [NO_ART_NAME]
+[NAME] by Dusk
+[NAME] till Noon
+[NAME] and [ADJ] [PHRASE]
+[NAME]: Underworld
+You, [NAME], and [ANY_PRONOUN]
+[NAME], [ANY_PRONOUN], and You
+[NAME], You, and [ANY_PRONOUN]
+Forbidden: [NO_ART_NAME]
+[NO_ART_NAME]: [ADJ] Forbidden
+[PHRASE], Like [NAME]
+We [NAME]
+We Sense [NAME]
+Way of [NAME]
+Time with [NAME]
+Fear of [NAME]
+Secrets of [NAME]
+Hating [NAME]
+Cosmicaly [NAME]
+Always [NAME]
+[ANY_PRONOUN] said '[NAME]'
+Ever [NAME], Always [ADJ]

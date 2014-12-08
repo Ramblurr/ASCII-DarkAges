@@ -1,0 +1,71 @@
+interaction_weredragon
+
+[OBJECT:INTERACTION]
+
+=================================================================================================================
+Dark Towers 0.40.04 | r1 | Weredragon - Lunatic by -GM-X
+=================================================================================================================
+
+[INTERACTION:WEREDRAGON]
+    [I_SOURCE:DEITY]
+	    [IS_USAGE_HINT:MAJOR_CURSE]
+	    [IS_HIST_STRING_1: cursed ]
+	    [IS_HIST_STRING_2:the secrets of lunatic dragons]
+	[I_SOURCE:SECRET]
+		[IS_NAME:dragon walking]
+		[IS_SPHERE:FIRE]
+		[IS_SECRET_GOAL:IMMORTALITY]
+		[IS_SECRET:SUPERNATURAL_LEARNING_POSSIBLE]
+		[IS_SECRET:MUNDANE_RESEARCH_POSSIBLE]
+		[IS_SECRET:MUNDANE_TEACHING_POSSIBLE]
+		[IS_SECRET:MUNDANE_RECORDING_POSSIBLE:objects/text/book_instruction.txt:objects/text/secret_dragon.txt]
+	[I_SOURCE:INGESTION]
+		[IS_HIST_STRING_1: drank deep of the blood of ]
+		[IS_HIST_STRING_2: and was suffused with dragon lunacy]
+	[I_TARGET:A:CREATURE]
+		[IT_LOCATION:CONTEXT_CREATURE]
+		[IT_REQUIRES:CAN_LEARN]
+		[IT_REQUIRES:CAN_SPEAK]
+		[IT_REQUIRES:HAS_BLOOD]
+	    [IT_CANNOT_HAVE_SYNDROME_CLASS:INFERNO]
+	    [IT_CANNOT_HAVE_SYNDROME_CLASS:LICH]
+	    [IT_CANNOT_HAVE_SYNDROME_CLASS:WERECURSE]
+	    [IT_CANNOT_HAVE_SYNDROME_CLASS:VAMPCURSE]
+	    [IT_CANNOT_HAVE_SYNDROME_CLASS:DISTURBANCE_CURSE]
+	
+[I_EFFECT:ADD_SYNDROME]
+	[IE_TARGET:A]
+	[IE_IMMEDIATE]
+	[SYNDROME]
+	[IE_ARENA_NAME:Weredragon]
+		[SYN_CLASS:WERECURSE]
+		[CE_ADD_TAG:NO_AGING:NO_PHYS_ATT_RUST:NO_EAT:NO_DRINK:NOBREATHE:NOEXERT:NO_FEVERS:NO_DIZZINESS:EXTRAVISION:START:0]
+		[CE_PHYS_ATT_CHANGE:STRENGTH:3500:0:AGILITY:3500:0:TOUGHNESS:3500:0:RECUPERATION:3500:0:START:0]
+		[CE_BODY_TRANSFORMATION:START:0]
+			[CE:CREATURE:DRAGON:MALE]
+			[CE:PERIODIC:MOON_PHASE:14:0]
+		[CE_CAN_DO_INTERACTION:START:0]
+			[CDI:ADV_NAME:Transform into a Dragon]
+			[CDI:INTERACTION:DRAGONFORM]
+			[CDI:TARGET:A:SELF_ONLY]
+			[CDI:TARGET_RANGE:A:1]
+			[CDI:USAGE_HINT:ATTACK]
+			[CDI:VERB:begin to transform:begins to transform:NA]
+			[CDI:WAIT_PERIOD:4000]
+			
+===========================================================================================================
+			
+[INTERACTION:DRAGONFORM]
+	[I_TARGET:A:CREATURE]
+		[IT_LOCATION:CONTEXT_CREATURE]
+		[IT_CANNOT_TARGET_IF_ALREADY_AFFECTED]
+		[IT_MANUAL_INPUT:creature]
+		[I_EFFECT:ADD_SYNDROME]
+			[IE_TARGET:A]
+			[IE_IMMEDIATE]
+			[IE_ARENA_NAME:Weredragon]
+			[SYNDROME]
+				[CE_BODY_TRANSFORMATION:START:0:END:2000]
+				[CE:CREATURE:WEREDRAGON:FEMALE]
+				
+===========================================================================================================

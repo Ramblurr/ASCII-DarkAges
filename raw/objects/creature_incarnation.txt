@@ -1,0 +1,330 @@
+creature_incarnation
+
+[OBJECT:CREATURE]
+
+===========================================================================================================
+Dark Ages | 0.40.13 | r6 | **SPOILERS** GM-X | Mythos of Rammok | dfdarkage.com
+===========================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===========================================================================================================
+===========================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================================================================================================
+============================================================================================================
+
+[CREATURE:INCARNATION_RAMMOK]
+	[DESCRIPTION:Incarnation of the twilight god. None shall escape.]
+	[NAME:avatar of rammok:avatars of rammok:avatar of rammok]
+	[CREATURE_TILE:'A'][COLOR:4:0:1]
+	[BODY:HUMANOID_SIMPLE]
+	[CANOPENDOORS][CAN_LEARN][CAN_SPEAK]
+	[EQUIPS][ARENA_RESTRICTED]
+	[PREFSTRING:mythos]
+	[PREFSTRING:unsearchable gloom]
+	[FLIER][LOW_LIGHT_VISION:10000]
+============================================================================================================
+    [PERSONALITY:BRAVERY:100:100:100]
+    [PERSONALITY:PRIDE:100:100:100]
+    [PERSONALITY:CONFIDENCE:100:100:100]
+	[PERSONALITY:VENGEFUL:100:100:100]
+    [PERSONALITY:SINGLEMINDED:33:66:100]
+	[PERSONALITY:ACTIVITY_LEVEL:100:100:100]
+============================================================================================================
+    [SPHERE:NIGHT][SPHERE:DEATH][SPHERE:DARKNESS][SPHERE:NIGHTMARES][SPHERE:DEFORMITY]
+    [SPHERE:REVENGE][SPHERE:TWILIGHT][SPHERE:MOON][SPHERE:MISERY][SPHERE:WRITING]
+    [SPHERE:MIST][SPHERE:TREACHERY][SPHERE:TRICKERY][SPHERE:TRUTH][SPHERE:CHAOS][SPHERE:CREATION]
+	[SPHERE:LIGHT][SPHERE:LIGHTNING][SPHERE:LONGEVITY][SPHERE:STRENGTH][SPHERE:THUNDER]
+=========================================================================================================	
+    [GENERAL_MATERIAL_FORCE_MULTIPLIER:1:10]
+	[MATERIAL_FORCE_MULTIPLIER:INORGANIC:IRON:100:1]
+	[MATERIAL_FORCE_MULTIPLIER:INORGANIC:LEAD:100:1]
+### Lair Package ##=========================================================================================
+	[FREQUENCY:1][GOOD][EVIL]
+	[MEGABEAST][DIFFICULTY:25]
+		[ATTACK_TRIGGER:175:9990900:9990900]
+	[LAIR:SHRINE:90]
+	[LAIR:LABYRINTH:10]
+	[LAIR_HUNTER]
+	[LAIR_HUNTER_SPEECH:lair_hunter_incarnation.txt]
+	[HABIT_NUM:TEST_ALL]
+	[HABIT:COLLECT_WEALTH:100]
+	[HABIT:USE_ANY_MELEE_WEAPON:25]
+	[HABIT:COLLECT_TROPHIES]
+============================================================================================================
+	[APPLY_CREATURE_VARIATION:STANDARD_FLYING_GAITS:900:711:521:293:1900:2900] 30 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_WALKING_GAITS:900:711:521:293:1900:2900] 30 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:900:711:521:293:1900:2900] 30 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:900:711:521:293:1900:2900] 30 kph
+============================================================================================================
+	[NATURAL_SKILL:MELEE_COMBAT:16]
+	[NATURAL_SKILL:RANGED_COMBAT:16]
+	[NATURAL_SKILL:WRESTLING:16]
+	[NATURAL_SKILL:BITE:16]
+	[NATURAL_SKILL:GRASP_STRIKE:16]
+	[NATURAL_SKILL:STANCE_STRIKE:16]
+	[NATURAL_SKILL:DODGING:16]
+	[NATURAL_SKILL:MISC_WEAPON:16]
+	[NATURAL_SKILL:AXE:16]
+	[NATURAL_SKILL:SWORD:16]
+	[NATURAL_SKILL:DAGGER:16]
+	[NATURAL_SKILL:MACE:16]
+	[NATURAL_SKILL:HAMMER:16]
+	[NATURAL_SKILL:SPEAR:16]
+	[NATURAL_SKILL:CROSSBOW:16]
+	[NATURAL_SKILL:SHIELD:16]
+	[NATURAL_SKILL:ARMOR:16]
+	[NATURAL_SKILL:SIEGECRAFT:16]
+	[NATURAL_SKILL:SIEGEOPERATE:16]
+	[NATURAL_SKILL:BOWYER:16]
+	[NATURAL_SKILL:PIKE:16]
+	[NATURAL_SKILL:WHIP:16]
+	[NATURAL_SKILL:BOW:16]
+	[NATURAL_SKILL:BLOWGUN:16]
+	[NATURAL_SKILL:THROW:16]
+    [NATURAL_SKILL:CLIMBING:16]	
+============================================================================================================
+	[BIOME:NOT_FREEZING][EVIL][GOOD][AT_PEACE_WITH_WILDLIFE][OPPOSED_TO_LIFE]
+	[EXTRAVISION][SUPERNATURAL][POWER][INTELLIGENT][MAGMA_VISION][FIREIMMUNE_SUPER][NO_PHYS_ATT_RUST]
+	[NOBREATHE][NOSTUN][NONAUSEA][NOPAIN][NO_DIZZINESS][MISCHIEVIOUS][PRONE_TO_RAGE:50]
+	[NOSTUCKINS][NOTHOUGHT][NOEXERT][NOFEAR][NO_DRINK][NO_EAT][NO_SLEEP][IMMOLATE]
+	[NO_GENDER][NO_THOUGHT_CENTER_FOR_MOVEMENT][NO_CONNECTIONS_FOR_MOVEMENT][NOT_LIVING]
+	[PARALYZEIMMUNE][WEBIMMUNE][LIGHT_GEN][MEGABEAST][TRAPAVOID][MISCHIEVOUS][LIKES_FIGHTING][LIGHT_GEN]
+	[BUILDINGDESTROYER:2][NOT_BUTCHERABLE][AMBUSHPREDATOR][SWIMS_INNATE][FANCIFUL]
+============================================================================================================
+	[TISSUE:ADAMANTINE]
+		[TISSUE_NAME:adamantine:NP]
+		[TISSUE_MATERIAL:INORGANIC:ADAMANTINE]
+		[MUSCULAR]
+		[FUNCTIONAL]
+		[STRUCTURAL]
+		[RELATIVE_THICKNESS:1]
+		[CONNECTS]
+		[TISSUE_SHAPE:LAYER]
+	[TISSUE_LAYER:BY_CATEGORY:ALL:ADAMANTINE]
+	[USE_MATERIAL_TEMPLATE:POISON:CREATURE_EXTRACT_TEMPLATE]
+		[STATE_NAME:ALL_SOLID:touch of death]
+		[STATE_ADJ:ALL_SOLID:touch of death]
+		[STATE_NAME:LIQUID:touch of death]
+		[STATE_ADJ:LIQUID:touch of death]
+		[STATE_NAME:GAS:touch of death]
+		[STATE_ADJ:GAS:touch of death]
+		[PREFIX:NONE]
+		[ENTERS_BLOOD]
+		[SYNDROME]
+			[SYN_NAME:curse of the twilight god]
+			[SYN_AFFECTED_CLASS:GENERAL_POISON]
+			[SYN_IMMUNE_CREATURE:INCARNATION_RAMMOK:ALL]
+			[SYN_INJECTED]
+			[CE_NECROSIS:SEV:1000:PROB:100:BP:BY_CATEGORY:ALL:ALL:START:30:PEAK:60:END:1200]
+============================================================================================================
+	[SELECT_TISSUE_LAYER:ALL]
+		[TL_HEALING_RATE:1]
+============================================================================================================
+	[BODY_SIZE:0:0:999999]
+	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
+	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
+============================================================================================================
+	[CAN_DO_INTERACTION:INSANITY]
+ 		[CDI:ADV_NAME:Drive into madness]
+ 		[CDI:USAGE_HINT:ATTACK]
+ 		[CDI:TARGET:A:LINE_OF_SIGHT]
+ 		[CDI:TARGET_RANGE:A:20]
+ 		[CDI:MAX_TARGET_NUMBER:C:5]
+ 		[CDI:WAIT_PERIOD:10]
+========================================================================================================
+	[CAN_DO_INTERACTION:SHADOW_EMBRACE]
+		[CDI:ADV_NAME:Embrace]
+        [CDI:VERB:embraces:embraces:embraces]
+		[CDI:USAGE_HINT:ATTACK]
+        [CDI:TARGET_RANGE:A:1]
+		[CDI:MAX_TARGET_NUMBER:A:1]
+		[CDI:WAIT_PERIOD:10]
+========================================================================================================
+	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
+		[CDI:ADV_NAME:Hurl fireball]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:BP_REQUIRED:BY_CATEGORY:HAND]
+		[CDI:FLOW:FIREBALL]
+		[CDI:TARGET:C:LINE_OF_SIGHT]
+		[CDI:TARGET_RANGE:C:20]
+		[CDI:MAX_TARGET_NUMBER:C:5]
+		[CDI:WAIT_PERIOD:10]
+========================================================================================================
+	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
+		[CDI:ADV_NAME:Fire breath]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:BP_REQUIRED:BY_CATEGORY:HAND]
+		[CDI:FLOW:DRAGONFIRE]
+		[CDI:TARGET:C:LINE_OF_SIGHT]
+		[CDI:TARGET_RANGE:C:20]
+		[CDI:MAX_TARGET_NUMBER:C:5]
+		[CDI:WAIT_PERIOD:10]
+============================================================================================================
+	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
+		[ATTACK_SKILL:GRASP_STRIKE]
+		[ATTACK_VERB:touch:touches]
+		[ATTACK_CONTACT_PERC:999]
+		[ATTACK_PENETRATION_PERC:999]
+		[ATTACK_FLAG_WITH]
+		[ATTACK_PRIORITY:MAIN]
+		[SPECIALATTACK_INJECT_EXTRACT:LOCAL_CREATURE_MAT:POISON:LIQUID:100:100]
+============================================================================================================
+	[CAN_DO_INTERACTION:MINDBLAST]
+		[CDI:ADV_NAME:Mindblast Foe]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:TARGET:A:LINE_OF_SIGHT]
+		[CDI:VERB:you direct a blast of mental energy at your foe:directs a blast of mental energy at their foe:NA]
+		[CDI:TARGET_VERB:you feel dizzy and incoherent:feels dizzy and incoherent]
+		[CDI:TARGET_RANGE:A:20]
+		[CDI:MAX_TARGET_NUMBER:A:1]
+		[CDI:WAIT_PERIOD:10]
+===========================================================================================================
+	[CAN_DO_INTERACTION:BLIND_GEN]
+		[CDI:ADV_NAME:Cast Blindness]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:TARGET:A:LINE_OF_SIGHT]
+		[CDI:VERB:you cast a blinding ray at your foe:casts a blinding ray at their foe:NA]
+		[CDI:TARGET_VERB:you are blinded:is blinded]
+		[CDI:TARGET_RANGE:A:20]
+		[CDI:MAX_TARGET_NUMBER:A:5]
+		[CDI:WAIT_PERIOD:10]
+============================================================================================================
+	[CAN_DO_INTERACTION:LIGHTNING]
+		[CDI:ADV_NAME:Cast Lightening Bolt]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:TARGET:A:LINE_OF_SIGHT]
+		[CDI:VERB:you cast a bolt of lightening at your foe:casts a bolt of lightening at their foe:NA]
+		[CDI:TARGET_VERB:you feel shocked:is shocked]
+		[CDI:TARGET_RANGE:A:20]
+		[CDI:MAX_TARGET_NUMBER:A:5]
+		[CDI:WAIT_PERIOD:10]
+============================================================================================================
+	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
+		[CDI:ADV_NAME:Cast Web]
+		[CDI:USAGE_HINT:FLEEING]
+		[CDI:BP_REQUIRED:BY_CATEGORY:MOUTH]
+		[CDI:MATERIAL:LOCAL_CREATURE_MAT:SILK:WEB_SPRAY]
+		[CDI:TARGET:C:LINE_OF_SIGHT]
+		[CDI:VERB:you cast a web at your foe:casts a web at their foe:NA]
+		[CDI:TARGET_VERB:you feel webbed:is webbed]
+		[CDI:TARGET_RANGE:C:20]
+		[CDI:MAX_TARGET_NUMBER:C:5]
+		[CDI:WAIT_PERIOD:10]
+============================================================================================================
+	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
+		[CDI:ADV_NAME:Cast Ice Blast]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:MATERIAL:INORGANIC:FROST_TEMPLATE:TRAILING_VAPOR_FLOW]
+		[CDI:VERB:gesture:gestures:NA]
+		[CDI:TARGET:C:LINE_OF_SIGHT]
+		[CDI:TARGET_VERB:you feel ice blasted:is ice blasted]
+		[CDI:TARGET_RANGE:C:10]
+		[CDI:MAX_TARGET_NUMBER:C:1]
+		[CDI:WAIT_PERIOD:240]
+=======================================================================================================================
+	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
+		[CDI:ADV_NAME:Shoot Eye Beam]
+		[CDI:USAGE_HINT:ATTACK]
+		[CDI:BP_REQUIRED:BY_CATEGORY:Eye]
+		[CDI:MATERIAL:LOCAL_CREATURE_MAT:THUNDER:TRAILING_VAPOR_FLOW]
+		[CDI:VERB:shoot eye beam:shoots eye beam]
+		[CDI:TARGET_VERB:you feel eye beamed:is eye beamed]
+		[CDI:TARGET:C:LINE_OF_SIGHT]
+		[CDI:TARGET_RANGE:C:20]
+		[CDI:MAX_TARGET_NUMBER:C:1]
+		[CDI:WAIT_PERIOD:10]
+============================================================================================================
+	[ITEMCORPSE:STATUE:NO_SUBTYPE:INORGANIC:ADAMANTINE]
+	[ITEMCORPSE:BLOCKS:NO_SUBTYPE:INORGANIC:ADAMANTINE]
+	[ITEMCORPSE_QUALITY:5]
+============================================================================================================

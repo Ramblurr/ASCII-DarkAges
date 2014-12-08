@@ -1,0 +1,31 @@
+tissue_template_z
+
+[OBJECT:TISSUE_TEMPLATE]
+
+========================================
+Mod
+========================================
+
+/*Used for creatures to give hides for pelts instead of skin for leather
+[TISSUE_TEMPLATE:ZPELT_TEMPLATE]
+	[TISSUE_NAME:pelt:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:SKIN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:100]
+	[VASCULAR:1]
+	[PAIN_RECEPTORS:5]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+/*Used for creatures to give dragonscale instead of skin
+[TISSUE_TEMPLATE:ZDRAGONSCALE_TEMPLATE]
+	[TISSUE_NAME:dragonscale:STP]
+	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:SCALE]
+	[SCARS]
+	[RELATIVE_THICKNESS:3]
+	[HEALING_RATE:50]
+	[VASCULAR:1]
+	[PAIN_RECEPTORS:5]
+	[CONNECTS]
+	[TISSUE_SHAPE:SCALES]

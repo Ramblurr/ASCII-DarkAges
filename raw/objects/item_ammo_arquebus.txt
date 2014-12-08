@@ -1,0 +1,21 @@
+item_ammo_arquebus
+
+[OBJECT:ITEM]
+
+===========================================================================================================
+Dark Ages 0.40.13 | r4 | Cartridges and Arquebus Ammo. Slight buff. GM-X | dfdarkage.com
+===========================================================================================================
+
+[ITEM_AMMO:ITEM_AMMO_CARTRIDGE]
+[NAME:arquebus cartridge:arquebus cartridges] 
+[CLASS:CARTRIDGE]
+[SIZE:175]
+[ATTACK:EDGE:5:6500:pierce:pierces:NO_SUB:10000]
+[ATTACK_PREPARE_AND_RECOVER:9:2]
+
+[ITEM_AMMO:ITEM_AMMO_BULLET]
+[NAME:arquebus bullet:arquebus bullets] 
+[CLASS:BULLET]
+[SIZE:175]
+[ATTACK:EDGE:5:6500:pierce:pierces:NO_SUB:7500]
+[ATTACK_PREPARE_AND_RECOVER:9:2]

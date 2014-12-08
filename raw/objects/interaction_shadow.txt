@@ -1,0 +1,28 @@
+interaction_shadow
+
+[OBJECT:INTERACTION]
+
+===========================================================================================================
+Dark Ages 0.40.16 | r1 | Shadows Embrace, modified version. Most tweaked power. GM-X | dfdarkage.com
+===========================================================================================================
+
+[INTERACTION:SHADOW_EMBRACE]
+        [I_SOURCE:CREATURE_ACTION]
+        [I_TARGET:A:CREATURE]
+            [IT_LOCATION:CONTEXT_CREATURE]
+	        [IT_CANNOT_HAVE_SYNDROME_CLASS:SHADOW]
+			[IT_FORBIDDEN:PARALYZEIMMUNE]
+		    [IT_MANUAL_INPUT:victim]			
+        [I_EFFECT:ADD_SYNDROME]
+                [IE_ARENA_NAME:shadow syndrome]
+                [IE_TARGET:A]
+                [IE_IMMEDIATE]
+                [SYNDROME]
+		[SYN_CLASS:SHADOW]
+                    [SYN_NAME:shadow embrace]
+                    [SYN_IMMUNE_CREATURE:SHADOW:ALL]
+                    [SYN_IMMUNE_CREATURE:STAR_BLACK:ALL]
+                    [SYN_IMMUNE_CREATURE:GREATER_BANSHEE:ALL]
+                    [SYN_IMMUNE_CREATURE:MASTER_DARK:ALL]
+                    [CE_UNCONSCIOUSNESS:SEV:9900:PROB:75:RESISTABLE:START:0:PEAK:0:END:750]
+                    [CE_PARALYSIS:SEV:9500:PROB:75:RESISTABLE:START:0:PEAK:0:END:700]

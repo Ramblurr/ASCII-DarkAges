@@ -1,0 +1,39 @@
+item_toy
+
+[OBJECT:ITEM]
+
+===========================================================================================================
+Dark Ages 0.40.11 | r1 | Toys, all vanilla and a handful of dark age toys. GM-X | dfdarkage.com
+===========================================================================================================
+
+[ITEM_TOY:ITEM_TOY_PUZZLEBOX]
+[NAME:puzzlebox:puzzleboxes]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_BOAT]
+[NAME:toy boat:toy boats]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_HAMMER]
+[NAME:toy hammer:toy hammers]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_AXE]
+[NAME:toy axe:toy axes]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_MINIFORGE]
+[NAME:mini-forge:mini-forges]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_HEX_DOLL]
+[NAME:hex doll:hex dolls]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_WAND]
+[NAME:toy wand:toy wands]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_VOID_HULK]
+[NAME:toy void hulk:toy void hulks]
+[HARD_MAT]
