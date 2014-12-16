@@ -240,7 +240,6 @@ Dark Ages 0.40.19 | r1 | Legendary Dwarfs, mega builders and heroes. GM-X | dfda
 	[PERMITTED_REACTION:MAKE_BREASTPLATE_WOODEN]
 	[PERMITTED_REACTION:MAKE_BLOWGUN_WOODEN]
 	[PERMITTED_REACTION:MAKE_BLOWGUNDART_WOODEN]
-	[PERMITTED_REACTION:MAKE_PICK_AXE]	
 ### Zaerosz Animal Trainer Pack  Reactions ###=============================================================
 	[PERMITTED_REACTION:ZCLEAN_FUR]
 	[PERMITTED_REACTION:ZMAKE_HIDE]
